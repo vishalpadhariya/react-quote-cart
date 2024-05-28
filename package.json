@@ -1,0 +1,39 @@
+{
+  "name": "@padhariyavishal/react-quote-cart",
+  "version": "1.0.3",
+  "description": "Add to quote product functionality with fetch quote cart items, update quote cart items, remove quote cart items.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishalpadhariya/react-quote-cart.git"
+  },
+  "keywords": [
+    "Request-A-Quote",
+    "react-quote-cart",
+    "Quote-Cart",
+    "Manage-Quotation-cart",
+    "E-commerce"
+  ],
+  "author": "Vishal Padhariya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vishalpadhariya/react-quote-cart/issues"
+  },
+  "homepage": "https://github.com/vishalpadhariya/react-quote-cart#readme",
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.4.5"
+  }
+}
