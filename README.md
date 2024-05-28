@@ -1,4 +1,4 @@
-# @padhariyavishal/react-quote-cart
+# react-quote-cart
 
 `react-quote-cart` is a simple and flexible React context provider for managing a quote cart in your application. It provides hooks and components to add, remove, update, and get products in a quote cart.
 
