@@ -1,6 +1,6 @@
 {
   "name": "@padhariyavishal/react-quote-cart",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Add to quote product functionality with fetch quote cart items, update quote cart items, remove quote cart items.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
