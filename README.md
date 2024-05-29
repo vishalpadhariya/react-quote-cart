@@ -42,8 +42,8 @@ import { useQuoteCartActions, QuoteCart } from 'react-quote-cart';
 const App = () => {
   const { addToQuoteCart } = useQuoteCartActions();
 
-  const sampleProduct = { id: 1, name: 'Product 1', price: 100 };
-  const anotherProduct = { id: 2, name: 'Product 2', price: 200 };
+  const sampleProduct = { id: 1, name: 'Product 1', uri: 'product-1', imageUrl:'https://placehold.co/150', price: 100 };
+  const anotherProduct = { id: 2, name: 'Product 2', uri: 'product-2',imageUrl:'https://placehold.co/150', price: 200 };
 
   return (
     <div>
@@ -177,8 +177,8 @@ import { QuoteCartProvider, useQuoteCartActions, QuoteCart } from 'react-quote-c
 const App = () => {
   const { addToQuoteCart } = useQuoteCartActions();
 
-  const sampleProduct = { id: 1, name: 'Product 1', price: 100 };
-  const anotherProduct = { id: 2, name: 'Product 2', price: 200 };
+  const sampleProduct = { id: 1, name: 'Product 1',uri: 'product-1', imageUrl:'https://placehold.co/150', price: 100 };
+  const anotherProduct = { id: 2, name: 'Product 2',uri: 'product-2', imageUrl:'https://placehold.co/150', price: 200 };
 
   return (
     <QuoteCartProvider>
